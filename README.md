@@ -14,7 +14,15 @@ GUI Automation Library for Crystal
 
 2. Run `shards install`
 
-## TODO LIST
+## Building Object Files
+screen.c -> screen.o
+`gcc -c screen.c -o screen.o -lX11`
+mouse.c -> mouse.o
+`gcc -c mouse.c -o mouse.o -lX11 -lXtst`
+keyboard.c -> keyboard.o
+`gcc -c keyboard.c -o keyboard.o -lX11 -lXtst`
+
+## TODO List
 - Automatic string writing
 - Character to Key-code mapping for easier keyboard function use
 - Mouse scrolling
