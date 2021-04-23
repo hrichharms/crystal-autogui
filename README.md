@@ -15,6 +15,9 @@ GUI Automation Library for Crystal using X11 C code
 2. Run `shards install`
 
 ## Building C Object Files
+In order to linke the X11 api-interacting C code with the crystal code, the c source file must be compiled to object files as follows:
+
+
 screen.c -> screen.o
 
 `gcc -c screen.c -o screen.o -lX11`
