@@ -1,6 +1,6 @@
 # crystal-autogui
 
-GUI Automation Library for Crystal using C-native X11 api bindings
+GUI Automation Functionality for Crystal by linking with X11 C bindings.
 
 ## Installation
 
