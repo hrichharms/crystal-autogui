@@ -1,6 +1,6 @@
 # crystal-autogui
 
-GUI Automation Library for Crystal
+GUI Automation Library for Crystal using X11 C code
 
 ## Installation
 
@@ -29,12 +29,6 @@ keyboard.c -> keyboard.o
 
 `gcc -c keyboard.c -o keyboard.o -lX11 -lXtst`
 
-
-## TODO List
-- Automatic string writing
-- Character to Key-code mapping for easier keyboard function use
-- Mouse scrolling
-
 ## Contributing
 
 1. Fork it (<https://github.com/your-github-user/crystal-autogui/fork>)
@@ -42,3 +36,8 @@ keyboard.c -> keyboard.o
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## TODO List
+- Automatic string writing
+- Character to Key-code mapping for easier keyboard function use
+- Mouse scrolling
