@@ -16,7 +16,7 @@ GUI Automation Library for Crystal
 
 ## TODO LIST
 - Automatic string writing
-- Character to Key-code mapping for easier keyboard function usage
+- Character to Key-code mapping for easier keyboard function use
 - Mouse scrolling
 
 ## Contributing
