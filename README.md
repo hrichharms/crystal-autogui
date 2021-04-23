@@ -14,11 +14,10 @@ GUI Automation Library for Crystal
 
 2. Run `shards install`
 
-## Usage
-
-```crystal
-require "crystal-autogui"
-```
+## TODO LIST
+- Automatic string writing
+- Character to Key-code mapping for easier keyboard function usage
+- Mouse scrolling
 
 ## Contributing
 
