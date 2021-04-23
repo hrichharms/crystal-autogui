@@ -14,7 +14,7 @@ GUI Automation Library for Crystal
 
 2. Run `shards install`
 
-## Building Object Files
+## Building C Object Files
 screen.c -> screen.o
 
 `gcc -c screen.c -o screen.o -lX11`
