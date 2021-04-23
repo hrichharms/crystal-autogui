@@ -1,6 +1,6 @@
 # crystal-autogui
 
-GUI Automation Library for Crystal
+GUI Automation Library for Crystal using X11 C code
 
 ## Installation
 
@@ -14,17 +14,20 @@ GUI Automation Library for Crystal
 
 2. Run `shards install`
 
-## Usage
+## Building C Object Files
+screen.c -> screen.o
 
-```crystal
-require "crystal-autogui"
-```
+`gcc -c screen.c -o screen.o -lX11`
 
-TODO: Write usage instructions here
 
-## Development
+mouse.c -> mouse.o
 
-TODO: Write development instructions here
+`gcc -c mouse.c -o mouse.o -lX11 -lXtst`
+
+
+keyboard.c -> keyboard.o
+
+`gcc -c keyboard.c -o keyboard.o -lX11 -lXtst`
 
 ## Contributing
 
@@ -33,3 +36,8 @@ TODO: Write development instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## TODO List
+- Automatic string writing
+- Character to Key-code mapping for easier keyboard function use
+- Mouse scrolling
