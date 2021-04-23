@@ -44,3 +44,4 @@ keyboard.c -> keyboard.o
 - Automatic string writing
 - Character to Key-code mapping for easier keyboard function use
 - Mouse scrolling
+- Pixel checking
